@@ -78,3 +78,102 @@ It is the first decentralized digital currency. It was developed by Satoshi Naka
 
 We cant create bitcoins as per our needs. It uses various cryptography and mathematical problem to restrict or control its creation and management.
 
+It is highly secured because it is created and held electronically in a peer to peer open ledger called the block chain. 
+
+Ledger is produced by people using software that solves mathematical problem. 
+
+#### Bitcoin Transaction
+
+James wants to transfer 500 bitcoin to Kevin. It is Lisa & Robert job to look that if james has enough bitcoins or not.
+
+![image-20210214234455470](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210214234455470.png)
+
+Lisa and Robert are going to check the complete transaction history of james. They are going to see at any point of james has received more than 500 bitcoins or atleast hold a corresponding balance of 500 bit coins. All previous transaction must be checked including his current credit and previous debit history. This all block validation gets completed in 10 minutes. But it is advised to wait for 30 minutes before completion of transaction.
+
+Since all transaction are checked so this also solves the problem of double spending.
+
+![image-20210214234929320](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210214234929320.png)
+
+##### Why will Lisa & Robert validate the transaction ?
+
+The miner who validate the transaction as well as completes the next block of the blockchain gets 12.5 BTC(33-34 thousand dollar) as incentive for the creation of new block. 
+
+But mining is not simple it require alot of resource.
+
+### How Blockchain achieve the Bitcoin solution ?
+
+The unique number and specify amount you need to send. It is transmitted to all who is the member of bitcoin network. Once they receive and validation is done then this transaction become part of the new block which is going to be created.
+
+![image-20210215000151277](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215000151277.png)
+
+### Three Key Features of Blockchain
+
+![image-20210215060813825](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215060813825.png)
+
+These features are the reason which makes blockchain more powerful.
+
+##### **Private Key Cryptography**
+
+Blockchain uses Private Key Cryptography to secure identities and hash function to make the blockchain immutable. This hashing algorithm is so precise and complex such that a single comma or space brings a great change in hash value. 
+
+Private Key Cryptography involves two different keys, private and public. One key is purposely kept private, the other key which is public is provided to the other party. We share the public key it is similar to account no. So if we want to send money to someone we simply request for their public key.
+
+On the basis of data we can decide it should be encrypted with public key or private key and the other would be used for decryption.
+
+This is called asymmetric encryption.
+
+##### **P2P Network**
+
+P2P machines on the network help in maintaining the consistency of distributed ledger. Let say a Person tries to make a change with a transaction or block which is a part of blockchain. Then that change doesn't get added or reflected because most people over the network have the original blockchain. This change doesn't get accepted and become rejected.
+
+![image-20210215062241373](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215062241373.png)
+
+Suppose a member in network tries to modifies the data . He suggest amount has to come to his node instead of C. So once he suggest there occurs a majority and minority difference. But since the majority of node has correct details. The suggestion gets rejected. 
+
+**Central Ledger** 
+
+![Image result for distributed ledger edureka](https://www.edureka.co/blog/wp-content/uploads/2018/02/Hyperledger-Network-What-is-Hyperledger-Edureka.png)
+
+So here if the central database or ledger get corrupted. The entire data is lost. And there can be money crisis or crashes. But Blockchain has solved this problem with help of distributed ledger. Each member over the network has a copy of the ledger. So it ensures no fraud can happen. So if anyone loses his copy he can ask from another. And even changes or fraud cant occur because the ledger is public.
+
+![image-20210215063326624](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215063326624.png)
+
+Every single person on the network has a copy of the ledger. There is no single centralized original copy. Ledger here means the copy of all the transactions that ever happened.
+
+**P2P Network - Digital Signature**
+
+![image-20210215063802385](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215063802385.png)
+
+A digital signature is a very important part of the transaction detail. It ensures that the person who is sending the money is the real person and the amount which is being transacted is the correct amount.
+
+The hash algorithm is fed the public key of sender & receiver as well as the amount which has to be transacted which is encrypted with the help of private key which then is added as a digital signature to the document. This is the same document which has the public key of sender & receiver as well as the amount. Once it get transmitted across the network , we feed the data to the hash algorithm which again hash the amount which have to be sent and public key of user & receiver. We also the decrypt the signature using the public key. If the hashes are same then we can call the transaction is same and hasn't been modified.
+
+##### Blockchain Program
+
+- It can implemented on multiple domains.
+
+- It is a concept and can be implemented by any language. 
+
+- Solidity is the most preferred default for writing programs in Blockchain.
+
+### Blockchain Transaction
+
+In any blockchain:
+
+- Every transaction that get verified and validated in the process of creation of new block is logged including information on the time, date , participants and amount of every single transaction.
+- Each node of the network hold the complete or full copy of blockchain.
+
+![image-20210215065809294](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215065809294.png)
+
+### Blockchain Types
+
+![image-20210215070003896](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215070003896.png)
+
+### Blockchain Use Cases
+
+![img](https://www.fahmpartners.com/wp-content/uploads/2018/02/blockchain-applications-2.svg)
+
+![image-20210215070748018](img\image-20210215070748018.png)
+
+![image-20210215070815318](img\image-20210215070815318.png)
+
