@@ -15,7 +15,7 @@ Blockchain is one of the most trending topic in todays era. It is used highly fo
 
 - **High Transaction Fees**
 
-  ![image-20210208144627668](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210208144627668.png)
+  ![image-20210208144627668](img/image-20210208144627668.png)
 
   The issue of Transaction Fees -  Suppose Chandler is sending $100 to Joe but it must pass through a trusted third party like a Bank before Joe can receive it. A transaction fees of 2% is deducted from this amount and Joe only receives $98 at the end of the transaction. Now this may not seem a big amount but imagine if you were sending $100,000 instead of $100, then the transaction fees also increases to $2,000 which is a big amount. As per a report from SNL Financial and CNNMoney, JPMorgan Chase, Bank of America and Wells Fargo earned more than $6 billion from ATM and overdraft fees in 2015.  
 
@@ -33,7 +33,7 @@ Blockchain is one of the most trending topic in todays era. It is used highly fo
 
 - **Net Frauds and Account Hacking**
 
-  ![image-20210208145918924](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210208145918924.png)
+  ![image-20210208145918924](img/image-20210208145918924.png)
 
 No one is safe from the Cyber fraud! Not even you!
 
@@ -45,11 +45,11 @@ According to reports coming in from Reserve Bank of India (RBI) fraudsters have 
 
 **Let us now try understand how Blockchain and Bitcoins solve these issues**
 
-![image-20210208174220410](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210208174220410.png)
+![image-20210208174220410](img/image-20210208174220410.png)
 
 Centralized power was lost when bitcoin came into picture. In bitcoin or blockchain system anyone who get involved in it becomes a powerful authority. The power which is with the single person in the centralized power system get distributed in this system.
 
-![image-20210208174627425](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210208174627425.png)
+![image-20210208174627425](img/image-20210208174627425.png)
 
 **Decentralized System**
 The Blockchain system follows a decentralized approach when compared to banks and financial organizations which are controlled and governed by Central or Federal Authorities. Here, everyone who is part of the system becomes equally responsible for the growth and downfall of the system. Rather than one single entity holding the power, everyone who is involved with the system holds some power.
@@ -86,13 +86,13 @@ Ledger is produced by people using software that solves mathematical problem.
 
 James wants to transfer 500 bitcoin to Kevin. It is Lisa & Robert job to look that if james has enough bitcoins or not.
 
-![image-20210214234455470](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210214234455470.png)
+![image-20210214234455470](img/image-20210214234455470.png)
 
 Lisa and Robert are going to check the complete transaction history of james. They are going to see at any point of james has received more than 500 bitcoins or atleast hold a corresponding balance of 500 bit coins. All previous transaction must be checked including his current credit and previous debit history. This all block validation gets completed in 10 minutes. But it is advised to wait for 30 minutes before completion of transaction.
 
 Since all transaction are checked so this also solves the problem of double spending.
 
-![image-20210214234929320](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210214234929320.png)
+![image-20210214234929320](img/image-20210214234929320.png)
 
 ##### Why will Lisa & Robert validate the transaction ?
 
@@ -104,11 +104,11 @@ But mining is not simple it require alot of resource.
 
 The unique number and specify amount you need to send. It is transmitted to all who is the member of bitcoin network. Once they receive and validation is done then this transaction become part of the new block which is going to be created.
 
-![image-20210215000151277](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215000151277.png)
+![image-20210215000151277](img/image-20210215000151277.png)
 
 ### Three Key Features of Blockchain
 
-![image-20210215060813825](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215060813825.png)
+![image-20210215060813825](img/image-20210215060813825.png)
 
 These features are the reason which makes blockchain more powerful.
 
@@ -126,7 +126,7 @@ This is called asymmetric encryption.
 
 P2P machines on the network help in maintaining the consistency of distributed ledger. Let say a Person tries to make a change with a transaction or block which is a part of blockchain. Then that change doesn't get added or reflected because most people over the network have the original blockchain. This change doesn't get accepted and become rejected.
 
-![image-20210215062241373](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215062241373.png)
+![image-20210215062241373](img/image-20210215062241373.png)
 
 Suppose a member in network tries to modifies the data . He suggest amount has to come to his node instead of C. So once he suggest there occurs a majority and minority difference. But since the majority of node has correct details. The suggestion gets rejected. 
 
@@ -136,13 +136,13 @@ Suppose a member in network tries to modifies the data . He suggest amount has t
 
 So here if the central database or ledger get corrupted. The entire data is lost. And there can be money crisis or crashes. But Blockchain has solved this problem with help of distributed ledger. Each member over the network has a copy of the ledger. So it ensures no fraud can happen. So if anyone loses his copy he can ask from another. And even changes or fraud cant occur because the ledger is public.
 
-![image-20210215063326624](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215063326624.png)
+![image-20210215063326624](img/image-20210215063326624.png)
 
 Every single person on the network has a copy of the ledger. There is no single centralized original copy. Ledger here means the copy of all the transactions that ever happened.
 
 **P2P Network - Digital Signature**
 
-![image-20210215063802385](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215063802385.png)
+![image-20210215063802385](img/image-20210215063802385.png)
 
 A digital signature is a very important part of the transaction detail. It ensures that the person who is sending the money is the real person and the amount which is being transacted is the correct amount.
 
@@ -163,17 +163,17 @@ In any blockchain:
 - Every transaction that get verified and validated in the process of creation of new block is logged including information on the time, date , participants and amount of every single transaction.
 - Each node of the network hold the complete or full copy of blockchain.
 
-![image-20210215065809294](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215065809294.png)
+![image-20210215065809294](img/image-20210215065809294.png)
 
 ### Blockchain Types
 
-![image-20210215070003896](C:\Users\Saurav Chaudhary\AppData\Roaming\Typora\typora-user-images\image-20210215070003896.png)
+![image-20210215070003896](img/image-20210215070003896.png)
 
 ### Blockchain Use Cases
 
 ![img](https://www.fahmpartners.com/wp-content/uploads/2018/02/blockchain-applications-2.svg)
 
-![image-20210215070748018](img\image-20210215070748018.png)
+![image-20210215070748018](img/image-20210215070748018.png)
 
-![image-20210215070815318](img\image-20210215070815318.png)
+![image-20210215070815318](img/image-20210215070815318.png)
 
